@@ -1,0 +1,43 @@
+/* Dropdown Menu Styles */
+
+.options {
+    position: relative;
+    width:100px;;
+}
+
+.options-content {
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.options:hover .options-content {
+    display: block;
+}
+
+.options-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.options-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.options-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.language-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* End of Dropdown Menu Styles */
