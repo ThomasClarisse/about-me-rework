@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <script>
 window.onscroll = function() {
     var btn = document.getElementById("myBtn");
@@ -19,6 +20,7 @@ window.onscroll = function() {
 
 <body>
     <a id="top"></a>
+
     <div class="options">
         <img src="icons/horizontal.png" alt="menu" class="options-icon">
         <div class="options-content">
@@ -27,9 +29,62 @@ window.onscroll = function() {
             <a href="info.html">info</a>
             <a href="contact.html">Contact</a>
             <a href="https://github.com/ThomasClarisse/about-me-rework">github</a>
-
         </div>
     </div>
-    
+
+    <h1>Hello and welcome to my website</h1>
+    <div class="intro">
+        <h3>About me</h3>
+        <p>Hello, my name is Thomas Clarisse. I'm an 18 year old student from The Netherlands that's currently studying software development at ROC Midden Nederland. 
+            I made this website to give you a small introduction about myself and showcase some of my current and in development projects with the skills that i have.
+            If you want, you can also checkout my projects in the top left corner where the dropdown menu is and see my Github projects page.
+        </p>
+    </div>
+
+    <div class="skills">
+        <h2 style="text-align: center;">Here are some of my skills</h2>
+        <img src="icons/html.png" alt="HTML5" class="skill-icon"><br>
+        <progress value="75" max="100"></progress><br>
+        <img src="icons/css.png" alt="CSS3" class="skill-icon"><br>
+        <progress value="70" max="100"></progress><br>
+        <img src="icons/php.png" alt="PHP" class="skill-icon"><br>
+        <progress value="70" max="100"></progress><br>
+        <img src="icons/sql.png" alt="SQL" class="skill-icon"><br>
+        <progress value="50" max="100"></progress>
+    </div>
+
+    <div class="certificates">
+        <h2 style="text-align: center; padding-top: 20px;">Certificates</h2>
+        <br>
+        <b class="cetrificates-desc">So far i have obtained the following certificates:</b>
+
+        <div class="certificate-item">
+            <b>php beginner</b>
+            <img src="certificates/php-beginner.png" alt="php beginner certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>php novice</b>
+            <img src="certificates/php-novice.png" alt="php novice certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>html and css beginner</b>
+            <img src="certificates/html-beginner.png" alt="html and css beginner certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>sql beginner</b>
+            <img src="certificates/SQL-beginner.png" alt="sql beginner certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>pdo (php data objects)</b>
+            <img src="certificates/pdo.png" alt="pdo certificate">
+        </div>
+        <br><br>
+    </div>
+
+    <img src="icons/arrow.png" alt="back to top" id="myBtn" onclick="location.href='#top'">
 </body>
 </html>

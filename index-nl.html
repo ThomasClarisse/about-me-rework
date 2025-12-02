@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+window.onscroll = function() {
+    var btn = document.getElementById("myBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+</script>
+
+<body>
+    <a id="top"></a>
+    <div class="options">
+        <img src="icons/horizontal.png" alt="menu" class="options-icon">
+        <div class="options-content">
+            <a href="index.html"><img src="icons/flag.png" alt="language" class="language-icon"></a>
+            <a href="projects.html">Projecten</a>
+            <a href="info.html">Informatie</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://github.com/ThomasClarisse/about-me-rework">Github</a>
+
+        </div>
+    </div>
+    <h1>Hallo en welkom op mijn website</h1>
+    <div class="intro">
+        <h3>Over mij</h3>
+        <p>Hallo, mijn naam is Thomas Clarisse. Ik ben een 18-jarige student uit Nederland en studeer momenteel softwareontwikkeling aan ROC Midden Nederland.
+            Ik heb deze website gemaakt om je een korte introductie over mezelf te geven en een aantal van mijn huidige en toekomstige projecten te laten zien, inclusief de vaardigheden die ik bezit.
+            Als je wilt, kun je ook mijn projecten bekijken in de linkerbovenhoek, waar het dropdownmenu staat, en mijn Github-projectpagina bekijken.
+        </p>
+    </div>
+
+    <div class="skills">
+        <h2 style="text-align: center;">Hier zijn een aantal van mijn vaardigheden.</h2>
+        <img src="icons/html.png" alt="HTML5" class="skill-icon"><br>
+        <progress value="75" max="100"></progress><br>
+        <img src="icons/css.png" alt="CSS3" class="skill-icon"><br>
+        <progress value="70" max="100"></progress><br>
+        <img src="icons/php.png" alt="PHP" class="skill-icon"><br>
+        <progress value="70" max="100"></progress><br>
+        <img src="icons/sql.png" alt="SQL" class="skill-icon"><br>
+        <progress value="50" max="100"></progress>
+    </div>
+
+    <div class="certificates">
+        <h2 style="text-align: center; padding-top: 20px;">certificaten</h2>
+        <br>
+        <b class="cetrificates-desc">Tot nu toe heb ik de volgende certificaten behaalt:</b>
+
+        <div class="certificate-item">
+            <b>php beginner</b>
+            <img src="certificates/php-beginner.png" alt="php beginner certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>php gevorderd</b>
+            <img src="certificates/php-novice.png" alt="php novice certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>html en css beginner</b>
+            <img src="certificates/html-beginner.png" alt="html and css beginner certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>sql beginner</b>
+            <img src="certificates/SQL-beginner.png" alt="sql beginner certificate">
+        </div>
+
+        <div class="certificate-item">
+            <b>pdo (php data objecten)</b>
+            <img src="certificates/pdo.png" alt="pdo certificate">
+        </div>
+        <br><br>
+    </div>
+
+    <img src="icons/arrow.png" alt="back to top" id="myBtn" onclick="location.href='#top'">
+    
+</body>
+</html>

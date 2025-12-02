@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+window.onscroll = function() {
+    var btn = document.getElementById("myBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    var images = document.querySelectorAll('img[tabindex="0"]');
+    var overlay = document.getElementById('overlay');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            overlay.style.display = 'block';
+            img.focus();
+        });
+        img.addEventListener('focus', function() {
+            overlay.style.display = 'block';
+        });
+        img.addEventListener('blur', function() {
+            overlay.style.display = 'none';
+        });
+    });
+    overlay.addEventListener('click', function() {
+        overlay.style.display = 'none';
+        document.activeElement.blur();
+    });
+});
+</script>
+
+<body>
+<a id="top"></a>
+
+    
+</body>
+</html>
