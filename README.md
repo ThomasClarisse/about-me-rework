@@ -30,6 +30,7 @@ The website will have it's own domain soon but in the meantime you have to downl
 
 ## Recent updates
 
+- added a working contact form on the contact page
 - added more information about myself to the information page in both the dutch and english version
 - Added information to both the dutch and english version of the readme files
 - Added the projects to both the dutch and english version of the projects page
@@ -44,7 +45,5 @@ The website will have it's own domain soon but in the meantime you have to downl
 - Add more projects to the projects page
 - Improve the design and layout of the website
 - Add a ability to comment on projects on the projects page
-- Add more information about my background and skills on the information page
-- Implement a working contact form on the contact page
 - Optimise the website to work on different devices and screen sizes
 - Improve accessibility features for better user experience

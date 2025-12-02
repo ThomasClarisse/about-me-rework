@@ -30,6 +30,7 @@ De website zal binnenkort een eigen domein hebben, maar in de tussentijd moet je
 
 ## Recente updates
 
+- Werkend contactformulier toegevoegd op de contactpagina
 - Meer informatie over mijzelf toegevoegd aan de informatiepagina in zowel de Nederlandse als Engelse versie
 - Informatie toegevoegd aan zowel de nederlandse als engelse versie van de readme bestanden
 - Projecten toegevoegd aan zowel de Nederlandse als Engelse versie van de projectenpagina
@@ -44,7 +45,5 @@ De website zal binnenkort een eigen domein hebben, maar in de tussentijd moet je
 - Meer projecten toevoegen aan de projectenpagina
 - Het ontwerp en de lay-out van de website verbeteren
 - Mogelijkheid toevoegen om te reageren op projecten op de projectenpagina
-- Meer informatie over mijn achtergrond en vaardigheden toevoegen op de informatiepagina
-- Een werkend contactformulier implementeren op de contactpagina
 - De website optimaliseren voor verschillende apparaten en schermformaten
 - Toegankelijkheidsfuncties verbeteren voor een betere gebruikerservaring

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="options">
+        <img src="icons/horizontal.png" alt="menu" class="options-icon">
+        <div class="options-content">
+            <a href="contact-nl.html"><img src="icons/circle.png" alt="language" class="language-icon"></a>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="info.html">info</a>
+            <a href="https://github.com/ThomasClarisse/about-me-rework">github</a>
+        </div>
+    </div>
+
+    <h1>Contact Me</h1>
+
+    <div class="contact">
+<form
+  action="https://formspree.io/f/xpwvrjbd"
+  class="fs-form"
+  target="_top"
+  method="POST"
+>
+  <div class="fs-field">
+    <label class="fs-label" for="name">Your Name</label>
+    <input class="fs-input" id="name" name="name" required />
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="email">Email</label>
+    <input class="fs-input" id="email" name="email" required />
+    <p class="fs-description">
+      This will help me respond to your message via an email.
+    </p>
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="message">Message</label>
+    <textarea
+      class="fs-textarea"
+      id="message"
+      name="message"
+      required
+    ></textarea>
+    <p class="fs-description">What would you like to discuss?</p>
+  </div>
+  <div class="fs-button-group">
+    <button class="fs-button" type="submit">Submit</button>
+  </div>
+</form>
+    </div>
+    
+</body>
+<footer>
+    <div class="find-me">
+        <h2>Find me on:</h2>
+        <a href="https://github.com/ThomasClarisse"><img src="icons/github.png"></a>
+        <a href="https://www.linkedin.com/in/thomas-clarisse-a6376a355/"><img src="icons/linkedin.png"></a>
+    </div>
+</footer>
+</html>
