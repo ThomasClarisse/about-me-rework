@@ -30,6 +30,7 @@ De website zal binnenkort een eigen domein hebben, maar in de tussentijd moet je
 
 ## Recente updates
 
+- Meer informatie over mijzelf toegevoegd aan de informatiepagina in zowel de Nederlandse als Engelse versie
 - Informatie toegevoegd aan zowel de nederlandse als engelse versie van de readme bestanden
 - Projecten toegevoegd aan zowel de Nederlandse als Engelse versie van de projectenpagina
 - Certificaten toegevoegd aan zowel de Nederlandse als Engelse versie van de startpagina

@@ -30,6 +30,7 @@ The website will have it's own domain soon but in the meantime you have to downl
 
 ## Recent updates
 
+- added more information about myself to the information page in both the dutch and english version
 - Added information to both the dutch and english version of the readme files
 - Added the projects to both the dutch and english version of the projects page
 - Added the certificates to both the dutch and english version of the home page
